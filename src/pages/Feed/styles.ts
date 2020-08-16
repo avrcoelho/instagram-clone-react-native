@@ -8,3 +8,10 @@ export const Container = styled.View`
 `;
 
 export const FeedList = styled(FlatList as new () => FlatList<IFeed>)``;
+
+export const Loading = styled.ActivityIndicator.attrs({
+  size: 'small',
+  color: '#999',
+})`
+  margin: 30px 0;
+`;
